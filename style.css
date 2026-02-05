@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffe5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 50px;
+}
+.container .tenor-gif-embed{
+    max-width: 200px;
+}
+.container .btn{
+    display: flex;
+    gap: 25px;
+}
+.container .btn a{
+    text-decoration: none;
+    color: #111;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0,0%,0%,0.3);
+    font-size: 18px;
+    border-radius: 5px;
+}
+.box{
+    height: 220px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.box video{
+    height: 200px;
+    width: 150px;
+    padding-top: 19px;
+}
+.video-con{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 15vh;
+}
+.video-con1{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 18vh;
+    gap: 12px;
+    top: -15vh;
+    left: -29vh;
+}
+.video-con2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    gap: 12px;
+    top: -34vh;
+    left: -29vh;
+}
+.text{
+    position: absolute;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 77vh;
+}
+.text p{
+    font-size: 2vh;
+}
+.btn a {
+    text-decoration: none;
+    color: #111;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0,0%,0%,0.3);
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn{
+    position: absolute;
+    top: 3vh;
+    font-size: 3px;
+}
+.container3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 170px;
+    gap: 30px;
+}
+.container3 img{
+    height: 220px;
+    width: 120px;
+    border-radius: 12px;
+}
+.container3 #imag1{
+    position: absolute;
+    left: 2vh;
+    top: 12vh;
+}
+.container3 #imag2{
+    position: absolute;
+    left: -18vh;
+    top: 12vh;
+}
+.container4 #vid1{
+    position: absolute;
+    top: 12vh;
+    left: 6vh;
+}
+.container4 #vid2{
+    position: absolute;
+    top: 12vh;
+    left: 26vh;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    gap: 30px;
+}
+.container4 video{
+    height: 220px;
+    width: 120px;
+    border-radius: 12px;
+}
+.text h5{
+    padding: 12px;
+    color: #000000;
+}
+.text h5 span{
+    color: #f58585;
+}
+.btn2 a{
+    position: absolute;
+    text-decoration: none;
+    color: #111;
+    background-color: #fff;
+    padding: 5px 10x;
+    box-shadow: 0.5rem 1rem 3rem hsl(0,0%,0%,0.3);
+    font-size: 6px;
+    border-radius: 2px;
+    left: 1vh;
+    top: 1vh;
+}
