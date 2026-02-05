@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: #fd6969;
 }
 html,body{
     height: 100%;
@@ -32,6 +33,7 @@ body{
 .container .btn{
     display: flex;
     gap: 25px;
+    padding-top: 160vw;
 }
 .container .btn a{
     text-decoration: none;
@@ -63,19 +65,31 @@ body{
     display: flex;
     position: absolute;
     justify-content: center;
-    margin-top: 18vh;
+    margin-top: 2vh;
     gap: 12px;
-    top: -15vh;
-    left: -29vh;
+    top: -6vh;
+    left: -28vh;
 }
 .video-con2{
     position: absolute;
     display: flex;
     justify-content: center;
-    margin-top: 12px;
     gap: 12px;
-    top: -34vh;
-    left: -29vh;
+    top: -39vh;
+    left: -28vh;
+}
+.image-con1{
+    position: relative;
+}
+.image-con1 img{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: -12vh;
+    top: -12vh;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position:initial;
 }
 .text{
     position: absolute;
@@ -99,6 +113,7 @@ body{
     position: absolute;
     top: 3vh;
     font-size: 3px;
+    padding-top: 160vw;
 }
 .container3{
     position: relative;
@@ -114,23 +129,23 @@ body{
 }
 .container3 #imag1{
     position: absolute;
-    left: 2vh;
+    left: 1vh;
     top: 12vh;
 }
 .container3 #imag2{
     position: absolute;
-    left: -18vh;
+    left: -20vh;
     top: 12vh;
 }
 .container4 #vid1{
     position: absolute;
-    top: 12vh;
-    left: 6vh;
+    top: 14vh;
+    left: 4.5vh;
 }
 .container4 #vid2{
     position: absolute;
-    top: 12vh;
-    left: 26vh;
+    top: 14vh;
+    left: 25vh;
 }
 .container4{
     display: flex;
@@ -144,8 +159,11 @@ body{
     border-radius: 12px;
 }
 .text h5{
-    padding: 12px;
+    padding: 2px;
     color: #000000;
+}
+.text p{
+    padding: 2px 2px;
 }
 .text h5 span{
     color: #f58585;
@@ -161,4 +179,38 @@ body{
     border-radius: 2px;
     left: 1vh;
     top: 1vh;
+}
+p{
+    color: #111;
+}
+.button{
+    position: relative;
+}
+.button a{
+    position: absolute;
+    top: 37.666vh;
+    left: -17vh;
+    font-size: 14px;
+    text-decoration: none;
+}
+.text2{
+    position: relative;
+}
+.text2 p{
+    position: absolute;
+    font-size: 7px;
+    top: -48vh;
+    left: 20vh;
+}
+.letter-text{
+    /* background-color: #fff; */
+    height: 520px;
+    width: 300px;
+    border-radius: 10px;
+}
+.letter-text h2{
+    color: #3a3a3a;
+}
+.letter-text h4{
+    color: #fc4f4f;
 }
