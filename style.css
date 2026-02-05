@@ -203,7 +203,7 @@ p{
     left: 20vh;
 }
 .letter-text{
-    /* background-color: #fff; */
+    background-color: #fff;
     height: 520px;
     width: 300px;
     border-radius: 10px;
